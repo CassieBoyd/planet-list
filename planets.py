@@ -21,9 +21,11 @@ planet_list.insert(2, "Earth")
 planet_list.append("Pluto")
 print(planet_list)
 
+# Slice list by choosing index range to extricate. First number is the first item needed, second number is one number greater than last item needed.
 rocky_planets = planet_list[0:4]
 print("Rocky Planets:", rocky_planets)
 
+# del is a keyword, use it followed by the list name and put the index number of the item you want to delete in the square brackets.
 del planet_list[8]
 print(planet_list)
 
